@@ -1,5 +1,5 @@
 #!groovy
 
-@Library('Shared-library') _
+@Library('shared-library') _
 
 pipelineStages()
