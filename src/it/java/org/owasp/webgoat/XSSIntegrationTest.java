@@ -89,13 +89,13 @@ public class XSSIntegrationTest extends IntegrationTest {
             + "<tbody>"
             + "<tr>"
             + "<td><b>First Name:</b></td>"
-            //+ "<td>${e:forHtml(param.first_name)}</td>"
-            + "<td>" + request.getParameter("first_name") + "</td>" // 필터링 없이 값 출력
+            + "<td>${e:forHtml(param.first_name)}</td>"
+            //+ "<td>" + request.getParameter("first_name") + "</td>" // 필터링 없이 값 출력
             + "</tr>"
             + "<tr>"
             + "<td><b>Last Name:</b></td>"
-            //+ "<td>${e:forHtml(param.last_name)}</td>"
-            + "<td>" + request.getParameter("last_name") + "</td>" // 필터링 없이 값 출력
+            + "<td>${e:forHtml(param.last_name)}</td>"
+            //+ "<td>" + request.getParameter("last_name") + "</td>" // 필터링 없이 값 출력
             + "</tr>"
             + "</tbody>"
             + "</table>"
